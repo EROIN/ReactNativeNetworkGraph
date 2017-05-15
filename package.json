@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/EROIN/ReactNativeNetworkGraph/issues"
   },
-  "homepage": "https://github.com/EROIN/ReactNativeNetworkGraph#readme"
+  "homepage": "https://github.com/EROIN/ReactNativeNetworkGraph#readme",
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react-native-svg": "^5.1.8"
+  }
 }
