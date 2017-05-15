@@ -8,7 +8,7 @@ react-native-svg
 prop-types
 ```
 
-The prop-types library was used for checking the component's PropTypes as recommended by Facebook [here](_https://facebook.github.io/react/docs/typechecking-with-proptypes.html). The other library([react-native-svg](_https://github.com/react-native-community/react-native-svg)) was used for drawing the entities. 
+The prop-types library was used for checking the component's PropTypes as recommended by Facebook [here](https://facebook.github.io/react/docs/typechecking-with-proptypes.html). The other library([react-native-svg](https://github.com/react-native-community/react-native-svg)) was used for drawing the entities. 
 
 ### Installation
 ```bash
