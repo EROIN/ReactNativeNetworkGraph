@@ -1,0 +1,29 @@
+{
+  "name": "react-native-network-graph",
+  "version": "1.0.0",
+  "description": "Component for displaying connections between entities, in the form of a network graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EROIN/ReactNativeNetworkGraph.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "network",
+    "graph",
+    "network-graph",
+    "graphs",
+    "component",
+    "chart"
+  ],
+  "author": "EROIN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EROIN/ReactNativeNetworkGraph/issues"
+  },
+  "homepage": "https://github.com/EROIN/ReactNativeNetworkGraph#readme"
+}
