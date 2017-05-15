@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+//React.PropTypes is deprecated as of React v15.5. Please use the prop-types library instead.
+//source: https://facebook.github.io/react/docs/typechecking-with-proptypes.html
 import PropTypes from 'prop-types';
 import { View } from 'react-native';
 import Svg,{
@@ -12,6 +14,7 @@ import _ from 'lodash';
 class NetworkGraph extends Component
 {
   findCircleCenterCoords(index) {
+    //for a given index of a circle, where is its center.
     const {circleTitles, containerHeight, containerWidth, distanceFromCenter, selectedCircleIndex} = this.props;
     const degreeDifference = Number(360/(circleTitles.length-1));
     if(index>=selectedCircleIndex)
@@ -41,7 +44,7 @@ class NetworkGraph extends Component
       let currentCircleCoordinates = this.findCircleCenterCoords(fromCircleIndex);
       let linesForCircle = connectionsForCircle.map((toCircleIndex)=>{
         let targetCircleCoordinates = this.findCircleCenterCoords(toCircleIndex);
-        if(toCircleIndex===selectedCircleIndex)
+        if(toCircleIndex===selectedCircleIndex)  //if its connected to the circle currently selected targetCircleCoordinates will be the center of the drawable board.
         targetCircleCoordinates = {
           xCordinate:containerWidth/2,
           yCordinate:containerHeight/2
