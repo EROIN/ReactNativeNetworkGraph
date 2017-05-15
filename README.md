@@ -29,6 +29,11 @@ import NetworkGraph from 'react-native-network-graph';
 And then in your render method:
 
 ```jsx
+let connections = {
+  "1":[2,4], //node at index 1 is connected to nodes at index 2 and 4 respectively.
+  "2":[6,7] //node at index 2 is connected to nodes at index 6 and 7 respectively.
+};
+
 <NetworkGraph
     selectedCircleIndex={this.state.selectCircleIndex}
     circleTitles={circleTitles}
@@ -49,6 +54,7 @@ Name | PropType | Required | Default Value | Description
 selectedCircleIndex | Number | Yes | None | index of the selected circle which is drawn in the center
 circleTitles | Array | Yes | None | titles of all the circles.
 onCircleClick | Function | Yes | None | function that is invoked on clicking the circle
+connections | Object | Yes | None | See the example usage for the data structure of the  connections Object. 
 containerHeight | Number | No | 500 | height of content container inside which the graph is drawn
 containerWidth | Number | No | 500 | height of content container inside which the graph is drawn
 centralCircleRadius | Number | No | 60 | radius of the selected circle that is to be drawn in the center
