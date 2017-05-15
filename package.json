@@ -1,6 +1,6 @@
 {
   "name": "react-native-network-graph",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Component for displaying connections between entities, in the form of a network graph",
   "main": "index.js",
   "scripts": {
