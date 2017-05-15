@@ -149,7 +149,7 @@ NetworkGraph.defaultProps = {
   otherCirclesRadius:35,
   distanceFromCenter:200,
   selectedCircleLinesColor:'#f59f02',
-  otherCircleLinesColor:'white',
+  otherCircleLinesColor:'black',
   centralCircleStrokeColor:'#24a195',
   centralCircleFillColor:'#18B0A2',
   centralCircleTextColor:'white',
