@@ -28,6 +28,6 @@
   "homepage": "https://github.com/EROIN/ReactNativeNetworkGraph#readme",
   "dependencies": {
     "prop-types": "^15.5.10",
-    "react-native-svg": "^5.1.8"
+    "react-native-svg": "^12.1.1"
   }
 }
